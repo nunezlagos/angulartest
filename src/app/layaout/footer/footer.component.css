@@ -1,0 +1,22 @@
+    /* styles.css */
+    html, body {
+        height: 100%;
+        margin: 0;
+        background: rgba(0, 0, 0, 0.938);
+    }
+
+      
+    .content {
+        /* Asegura que el contenido no se solape con el footer */
+        margin-bottom: 60px; /* Altura del footer */
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        z-index: 1000; /* Asegura que esté encima de otros elementos si es necesario */
+    }
